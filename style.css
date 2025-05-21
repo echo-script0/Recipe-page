@@ -4,14 +4,17 @@ body {background-image: url('cream-biege.jpeg'); /* Ensure this path is correct 
            background-attachment: fixed;
            background-position: center;
            margin: 0;
-           padding: 0;}
+           padding: 0;
+           height: 100vh;
+           justify-content: center;
+           align-items: center;}
 
 
 .recipe-container{background-color: white; /* Box backgroung color*/
                   width:40%; /* The size you want the box to be*/
                   margin: 20px auto; /* Center the box in the middle of the page*/
                   padding: 20px;
-                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); green, blue, alpha; /* Optional; add shadow for better visibility*/
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional; add shadow for better visibility*/
                   border-radius: 10px; /* Optional; for when you want rounded edges*/
                   min-height: 100vh; /* Ensure the box fills the page */ }
 
