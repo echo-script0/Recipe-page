@@ -1,0 +1,79 @@
+body {background-image: url('cream-biege.jpeg'); /* Ensure this path is correct */
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center;
+           margin: 0;
+           padding: 0;}
+
+
+.recipe-container{background-color: white; /* Box backgroung color*/
+                  width:40%; /* The size you want the box to be*/
+                  margin: 20px auto; /* Center the box in the middle of the page*/
+                  padding: 20px;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); green, blue, alpha; /* Optional; add shadow for better visibility*/
+                  border-radius: 10px; /* Optional; for when you want rounded edges*/
+                  min-height: 100vh; /* Ensure the box fills the page */ }
+
+
+.recipe-container .omelette{background-image: url(omelette.jpeg);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            width: 90%;
+                            margin: 0px;
+                            padding: 20px;
+                            min-height: 40vh;}   
+
+.p1{font-size:small;}
+
+.prep-container{background-color:rgb(239, 234, 239);
+                width: 95%;
+                margin: 0;
+                padding: 10px;
+                border-radius: 10px;
+                min-height: 30px;
+                margin-bottom: 20px;}
+
+.p2{font-size: 16px; 
+    color: purple;
+    margin-bottom: 20px; 
+    line-height: 1.5; /* Better line spacing */ 
+    padding: 0 20px;}
+
+.prep-container li{color: black;
+       position: relative;}
+
+.prep-container li::marker{color: purple;}
+
+.p3{color: brown;
+     font-size: 24px;}
+
+.ingredients li::marker{color: rgb(238, 114, 114);}
+
+.ingredients li{font-size: small;}
+
+.p4{color: brown;
+    font-size: 24px;}
+
+.instructions li::marker{color: rgb(244, 81, 81);}
+
+.instructions li{font-size: small;}
+.p7{font-weight: bold;}
+
+.p5{font-size: small;}
+
+.styled-list{list-style-type: none;} /*remove pointers/bullet points*/
+.colored-number{font-size: medium;
+                color: brown;
+                font-weight: bold;
+                align-items: center;
+            justify-content: space-between;}
+
+.bold-text{font-size: small;}
+
+                            
+                            
+
+
+                  
