@@ -19,7 +19,7 @@ body {background-image: url('cream-biege.jpeg'); /* Ensure this path is correct 
                   min-height: 100vh; /* Ensure the box fills the page */ }
 
 
-.recipe-container .omelette{background-image: url(omelette.jpeg);
+.recipe-container .omelette{background-image: url(image-omelette.jpeg);
                             background-size: cover;
                             background-repeat: no-repeat;
                             background-position: center;

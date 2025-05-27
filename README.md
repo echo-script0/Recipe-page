@@ -12,12 +12,13 @@ This project displays a basic omelette recipe with preparation time, ingredients
 https://echo-script0.github.io/Recipe-page/
 
 ## Screenshot
-![Preview](screenshot.png) 
-![Preview 2](image.png)
+![Preview](image.png) 
+![Preview 2](screenshot.png)
 
 ## Technologies
-- HTML
-- CSS
+- HTML 5
+- CSS (Flexbox)
 
 ## Author
-Aisha Adeyemo ✨
+- Aisha Adeyemo ✨
+- Frontend Mentor - (https://www.frontendmentor.io/profile/echo-script0)
