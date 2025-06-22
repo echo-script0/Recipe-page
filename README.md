@@ -12,8 +12,8 @@ This project displays a basic omelette recipe with preparation time, ingredients
 https://echo-script0.github.io/Recipe-page/
 
 ## Screenshot
-![Preview](image.png) 
-![Preview 2](screenshot.png)
+![Preview](screenshot.png) 
+![Preview 2](image.png)
 
 ## Technologies
 - HTML 5
