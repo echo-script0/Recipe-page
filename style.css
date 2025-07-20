@@ -36,7 +36,8 @@ body {background-image: url('cream-biege.jpeg'); /* Ensure this path is correct 
                 padding: 10px;
                 border-radius: 10px;
                 min-height: 30px;
-                margin-bottom: 20px;}
+                margin-bottom: 20px;
+                line-height: 1.8;}
 
 .p2{font-size: 16px; 
     color: purple;
@@ -52,6 +53,8 @@ body {background-image: url('cream-biege.jpeg'); /* Ensure this path is correct 
 .p3{color: brown;
      font-size: 24px;}
 
+.ingredients {line-height: 1.8;}
+
 .ingredients li::marker{color: rgb(238, 114, 114);}
 
 .ingredients li{font-size: small;}
@@ -61,7 +64,10 @@ body {background-image: url('cream-biege.jpeg'); /* Ensure this path is correct 
 
 .instructions li::marker{color: rgb(244, 81, 81);}
 
-.instructions li{font-size: small;}
+.instructions ol{line-height: 1.8;}
+
+.instructions li{font-size: small;
+                 }
 .p7{font-weight: bold;}
 
 .p5{font-size: small;}
@@ -74,6 +80,81 @@ body {background-image: url('cream-biege.jpeg'); /* Ensure this path is correct 
             justify-content: space-between;}
 
 .bold-text{font-size: small;}
+
+
+/* ======= MEDIA QUERY FOR MOBILE DEVICES ======= */
+@media (max-width: 768px) {
+  .recipe-container {
+    width: 90%; /* Take up most of the screen */
+    padding: 15px;
+    min-height: auto;
+    margin: 20px auto;
+  }
+
+  .recipe-container .omelette {
+    width: 100%;
+    padding: 0;
+    min-height: 250px;
+    border-radius: 10px;
+  }
+
+  .simple h2 {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .p1 {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .prep-container {
+    width: 80vw;
+    padding: 15px;
+  }
+
+  .p2 {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .prep-container li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .ingredients {
+    padding: 10px 0;
+  }
+
+  .p3, .p4 {
+    font-size: 20px;
+  }
+
+  .ingredients li,
+  .instructions li,
+  .bold-text,
+  .p5 {
+    font-size: 14px;
+  }
+
+  .instructions ol {
+    padding-left: 18px;
+  }
+
+  .colored-number {
+    font-size: 15px;
+  }
+
+  .styled-list {
+    padding-left: 0;
+  }
+
+  hr {
+    margin: 20px 0;
+  }
+}
+
 
                             
                             
